@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  <!-- Page Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <!-- My Style Sheet -->
+  <link rel="stylesheet" href="style/style.css">
+
+  <!-- Page Style Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+
+  <!-- Page title -->
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+<!-- Dates Inputs -->
+
+<div class="card-forms">
+
+  <span class="card__dates">DAY</span>
+  <form action="" >
+  <input type="datetime" name="day" class="card__input" id="date__day" placeholder="DD">
+  </form>
+    
+  <span class="card__dates">MONTH</span>
+  <form action="">
+      <input type="datetime" name="Month" class="card__input" id="date__month" placeholder="MM">
+    </form>
+  
+    <span class="card__dates">YEAR</span>
+    <form action="">
+      <input type="datetime" name="Year" class="card__input" id="date__year" placeholder="YYYY">
+    </form>
+
+    <button  id="submit__btn"><img src="/age-calculator-app-main/assets/images/icon-arrow.svg" alt=""></button>
+</div>
+
+ 
+ <!-- Results -->
+ <div class="results">
+   
+   <h1><span  class="results__age"id="results__years">- -</span> years</h1>
+   <h1><span  class="results__age" id="results__months">- -</span> months</h1>
+   <h1><span  class="results__age" id="results__days">- -</span> days</h1>
+   
+  </div>
+  
+</div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="app.js"></script>
+</body>
+</html>
